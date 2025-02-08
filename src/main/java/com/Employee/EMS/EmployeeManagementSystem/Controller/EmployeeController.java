@@ -62,6 +62,10 @@ public class EmployeeController {
     String deleteEmployees(@PathVariable List<Long> ids) {
     	return service.deleteEmployees(ids);
     }
+    @GetMapping("/fetchempnames")
+    public List<String> fetchEMployeeNames(){
+    	return service.fetchEmployeeNames();
+    }
     
 	
 }

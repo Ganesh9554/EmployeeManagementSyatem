@@ -20,7 +20,7 @@ public interface EmployeeService {
     List<Employee> saveEmployees( List<Employee> emps);
     List<Employee> editEmployees(List<Employee> emps);
     String deleteEmployees(List<Long> ids);
-	
+	List<String> fetchEmployeeNames();
 	
 	
 	
